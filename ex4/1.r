@@ -1,1 +1,0 @@
-test <- read.csv("example.csv",header = TRUE,row.names = 1)
