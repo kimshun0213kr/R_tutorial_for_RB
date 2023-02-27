@@ -16,3 +16,9 @@ iframe{
 .logo{
     width: 100%;
 }
+
+.menu{
+    z-index: 2;
+    position: sticky;
+    top:0px;
+}
