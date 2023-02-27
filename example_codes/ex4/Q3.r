@@ -1,0 +1,1 @@
+Q3_txt <- read.table("Q3.txt",header = FALSE,sep = "\t",skip=12)
