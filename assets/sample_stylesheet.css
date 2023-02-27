@@ -1,0 +1,48 @@
+.links{
+    align-items: left;
+}
+
+ul {
+    padding: 0;
+    position: relative;
+    list-style: none;
+}
+
+.links{
+    color:#1e1e1e;
+    border-left: solid 8px #ff00ea;/*左側の線*/
+    background: whitesmoke;/*背景色*/
+    margin-bottom: 5px;/*下のバーとの余白*/
+    line-height: 1.5;
+    border-radius: 0 15px 15px 0;/*右側の角だけ丸く*/
+    padding: 0.5em;
+    list-style-type: none!important;
+}
+
+.link_list{
+    color:#1e1e1e;
+    border-left: solid 8px #00aeff;/*左側の線*/
+    border-bottom: solid 0.5em white;
+    border-top: solid 0.5em white;
+    border-right: solid 0.5em white;
+    background: whitesmoke;/*背景色*/
+    margin-bottom: 5px;/*下のバーとの余白*/
+    line-height: 1.5;
+    border-radius: 0 15px 15px 0;/*右側の角だけ丸く*/
+    padding: 0.5em;
+    list-style-type: none!important;
+}
+
+.link_list_in{
+    color:#1e1e1e;
+    border-left: solid 8px #00ff40;/*左側の線*/
+    border-bottom: solid 0.5em white;
+    border-top: solid 0.5em white;
+    border-right: solid 0.5em white;
+    background: whitesmoke;/*背景色*/
+    margin-bottom: 5px;/*下のバーとの余白*/
+    line-height: 1.5;
+    border-radius: 0 15px 15px 0;/*右側の角だけ丸く*/
+    padding: 0.5em;
+    list-style-type: none!important;
+}
