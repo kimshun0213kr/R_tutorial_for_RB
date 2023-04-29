@@ -4,6 +4,5 @@ x <- c(0.11,0.22,0.32,0.42,0.51,0.61,0.69)
 ans <- lsfit(x,y)
 con <- ans$coefficients
 x_con <- x*con[2]-con[1]
-plot(y,x,col=2,ylab="",xlab="")
-par(new=T)
-plot(x_con,x,type="l",col=3,main="濃度と吸光度の関係",ylab="吸光度",xlab="濃度")
+plot(x,y,col=2,ylab="吸光度",xlab="濃度")
+abline(ans)
